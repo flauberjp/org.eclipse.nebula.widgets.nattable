@@ -1,0 +1,27 @@
+/*******************************************************************************
+ * Copyright (c) 2012, 2020 Original authors and others.
+ *
+ * This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License 2.0
+ * which is available at https://www.eclipse.org/legal/epl-2.0/
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Contributors:
+ *     Original authors and others - initial API and implementation
+ ******************************************************************************/
+package org.eclipse.nebula.widgets.nattable.columnCategories;
+
+import java.util.List;
+
+import org.eclipse.nebula.widgets.nattable.selection.SelectionLayer.MoveDirectionEnum;
+
+public interface IColumnCategoriesDialogListener {
+
+    void itemsSelected(List<Integer> addedColumnIndexes);
+
+    void itemsRemoved(List<Integer> removedColumnPositions);
+
+    void itemsMoved(MoveDirectionEnum direction, List<Integer> selectedPositions);
+
+}

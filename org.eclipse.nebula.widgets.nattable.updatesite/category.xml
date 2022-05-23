@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.eclipse.nebula.widgets.nattable.core.feature">
+      <category name="nattable-core"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.core.source.feature">
+      <category name="nattable-core"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.e4.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.e4.source.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.source.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.nebula.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.nebula.source.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.poi.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <feature id="org.eclipse.nebula.widgets.nattable.extension.poi.source.feature">
+      <category name="nattable-extensions"/>
+   </feature>
+   <category-def name="nattable-core" label="NatTable Core">
+      <description>
+         The core NatTable functions.
+      </description>
+   </category-def>
+   <category-def name="nattable-extensions" label="NatTable Extensions">
+      <description>
+         Extensions to provide additional features based on third-party libraries.
+      </description>
+   </category-def>
+</site>
